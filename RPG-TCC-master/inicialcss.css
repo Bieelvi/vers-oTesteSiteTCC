@@ -1,0 +1,19 @@
+ {
+  	background-image: url('imagens/bg.jpg');
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.comoJogarBody {
+	
+}
+
+
+.divCreditos { 
+	padding: 10px; 
+}
+
+.texto_centro {
+	text-align: center;
+	color: white;
+}

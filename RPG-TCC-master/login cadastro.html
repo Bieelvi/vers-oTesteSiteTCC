@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="css.css">
+  	<link rel="icon" href="Imagens/dado.png" sizes="64x64">
+	<script src="https://kit.fontawesome.com/3eed49b05c.js" crossorigin="anonymous"></script>	
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+	<title>Login/Cadastro</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+		<img src="Imagens/banner2.png" class="bannerTopo">
+
+		<div class="position-avatar">
+			<a href="perfil.html">
+				<img src="imagens/imagemteste.png" class="iperfil img-fluid">
+			</a>
+				<a href="perfil.html" class="nome">Ghanor</a>			
+		</div>		
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <a class="navbar-brand dadinho" href="inicial.html">
+		  	<img src="imagens/menu.png" style="width: 32px; height: 32px;">
+		  </a>
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		      <div class="navbar-nav">
+		      	<a class="navbar-brand" href="#">
+    				<img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+  				</a>
+				<a class="nav-item nav-link verdinho" href="o que e rpg.html">O que é RPG?</a>
+		        <a class="nav-item nav-link verdinho" href="como jogar.html">Como Jogar</a>
+		        <a class="nav-item nav-link verdinho" href="quem somos.html">Quem Somos</a>
+		        <a class="nav-item nav-link verdinho" href="login cadastro.html">Entrar/Cadastrar</a>
+		        <a class="nav-item nav-link verdinho" href="jogar.html">Jogar/Play</a>
+		      </div>
+		    </div>
+		</nav>		
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<form class="entrar">
+			  		<div class="form-group">
+			  			<label for="exampleInputEmail1" class="titulo">Cadastre-se</label>
+			  			<br><br>
+			  			<div class="form-group">
+			  			  	<div class="row">
+							    <div class="col">
+							    	<label>Nome</label>
+							      	<input type="text" class="form-control" placeholder="Primeiro Nome" required>
+							    </div>
+							    <div class="col">
+							    	<label>Sobrenome</label>	
+							     	<input type="text" class="form-control" placeholder="Último Nome">
+							    </div>
+							</div>
+						</div>
+						<div class="form-group">
+				    		<label for="exampleInputEmail1">Email</label>
+				   		 	<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@exemplo.com" required>
+				  		</div>
+				  		<div class="form-group">
+				    		<label for="exampleInputEmail1">Confirmar Email</label>
+				   		 	<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@exemplo.com" required>
+				  		</div>
+				  		<div class="form-group">
+				    		<label for="exampleInputPassword1">Senha</label>
+				    		<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" required>
+				  		</div>
+				  		<div class="form-group">
+				    		<label for="exampleInputPassword1">Confirmar Senha</label>
+				    		<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" required>
+				  		</div>
+			  		</div>	
+			  		<button type="submit" class="btn btn-success">Cadastrar</button>
+				</form>
+			</div>
+
+			<div class="col-md-2"></div>
+
+			<div class="col-md-5">
+				<form class="cadastro">
+			  		<div class="form-group">
+			  			<label for="exampleInputEmail1" class="titulo">Login</label>
+			  			<br><br>
+			    		<label for="exampleInputEmail1">Email</label>
+			   		 	<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+			  		</div>
+			  		<div class="form-group">
+			    		<label for="exampleInputPassword1">Senha</label>
+			    		<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" required>
+			  		</div>
+			  		<button type="submit" class="btn btn-success">Entrar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+	<hr>
+	<div class="divCreditos">
+		<p class="div_DA texto_centro">© 2019-2020 Gabriel Raymundo | Nicolly Barbosa | Edilson Claudio | Gabriel Rosin | Versão 1.0</p>
+		<p class="div_DA texto_centro">Todas as imagens e os direitos autorais são pertencentes à Unicamp/Cotil - Limeira</p>
+	</div>		
+	</footer>
+	
+</body>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>  
+</html>

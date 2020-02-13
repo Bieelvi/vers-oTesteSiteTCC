@@ -1,0 +1,174 @@
+body {
+	padding: 0px;
+	background: fixed;
+	background-image: url(imagens/bgteste2.png);
+}
+
+.position-avatar {
+	position: absolute;
+	top: 5%;
+	left: 2%;
+	width: 10%;
+	text-align: center;
+}
+
+.bannerTopo {
+	width: 100%;
+}
+
+.imagemJogadorMestre {
+	width: 350px;
+	border-radius: 250px;
+}
+
+		/*Formulário*/
+
+.vl{
+	border-left: 6px solid green;
+ 	height: 100%;
+}
+label{
+	color: 	#DCDCDC; 
+}
+.titulo{
+	font-size: 3em;
+}
+
+hr {
+	background-color: white;
+}
+
+
+.texto_centro {
+	text-align: center;
+	color: white;
+}
+
+.tmestre_jogador {
+	text-align: center; 
+	margin-top:8%; 
+	font-family: 'Permanent Marker', cursive; font-size: 2em; 
+	color: white;
+}
+
+.tmestre_jogador:hover {
+	transform: scale(1.1,1.1);
+	color: silver;
+	transition-duration: 1s;
+	transition-delay: 0s;
+	transition-timing-function: ease;
+}
+
+.imestre_jogador:hover {
+	transform: scale(1.03,1.03);
+	color: red;
+	transition-duration: 1s;
+	transition-delay: 0s;
+	transition-timing-function: ease;
+}
+
+.nome {
+	 color: white;
+	 text-align: center;
+	 text-decoration: bold;
+	 margin-left: 1.5px;
+	 font-family: 'Yeon Sung', cursive;
+}
+
+.iperfil {
+	width: 128px;
+}
+
+.iperfil:hover {
+	transform: scale(1.03,1.03);
+	transition-duration: 1s;
+	transition-delay: 0s;
+	transition-timing-function: ease;
+}
+
+.divCreditos {
+	background-color: #343a40; 
+	padding: 10px; 
+	margin: 0;
+}
+
+.alturaCarousel {
+	height: 500px;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 992px) {
+.iperfil {
+	display: none;
+}
+
+.position-avatar {
+	margin-top: 2%;
+	margin-left: 2%;
+	font-size: 1.3em;
+	font-family: 'Yeon Sung', cursive;
+}
+
+.alturaCarousel {
+	height: 240px;
+}
+
+.titleResponsive {font-size: 2.5em;}
+
+}
+
+			/*Quem Somos*/
+	
+.quemSomos{
+	width: 50%;
+
+}
+
+.card-img-top{
+	height: 350px;
+}
+
+.heightCarousel {
+	height: 500px;
+}
+
+.jumbotron-margin {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+
+.fonte-texto {
+	font-family: 'Satisfy', cursive; 
+	font-size: 1.5em;
+}
+
+.fonte-titulo {
+	font-family: 'Yeon Sung', cursive;
+}
+
+.fonte-subtitulo {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.imagemdice {
+	width: 560px;
+	height: 300px;
+	border-radius: 35px; 
+
+}
+
+.verdinho:hover {
+	color: green;
+	border-style: solid;
+	border-color: green;
+	border-radius: 50px;
+	margin: -5px;
+} 
+
+.dadinho:hover {
+	transform: scale(1.3,1.3);
+	transition-duration: 0.1s;
+	transition-delay: 0.1s;
+	transition-timing-function: ease;
+}
